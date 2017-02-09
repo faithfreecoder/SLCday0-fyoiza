@@ -1,0 +1,22 @@
+{
+  "name": "self-learning-clinic-day0",
+  "version": "1.0.0",
+  "description": "My solutions to exercises given for self learning clinic day 0 at Andela-Bootcamp",
+  "main": "app/library.js",
+  "scripts": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faithfreecoder/SLCday0-fyoiza.git"
+  },
+  "author": "Faith Mustapha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faithfreecoder/SLCday0-fyoiza/issues"
+  },
+  "homepage": "https://github.com/faithfreecoder/SLCday0-fyoiza#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
