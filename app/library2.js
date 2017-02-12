@@ -1,11 +1,8 @@
-module.exports = 
-{
-
-computeFizzBuzz: function fizzBuzz(num)
+function fizzBuzz(num)
 {
   if (num % 3 === 0 && num % 5 !== 0)
   {
-    return 'fizz';
+    return 'Fizz';
   }
   else if (num % 5 === 0 && num % 3 !== 0)
   {
@@ -13,9 +10,12 @@ computeFizzBuzz: function fizzBuzz(num)
   }
   else if (num % 3=== 0 && num % 5===0)
   {
-    return 'fizzBuzz'
+    return 'FizzBuzz';
   }
   else 
-  return num; 
-},
-}
+  {
+  return num;
+  } 
+};
+
+module.exports = fizzBuzz;

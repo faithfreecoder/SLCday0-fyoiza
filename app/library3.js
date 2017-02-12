@@ -1,4 +1,5 @@
-convertaritGeo: const aritGeo = function aritGeo(myarray)
+
+function aritGeo(myarray)
 {
   var i=0,j =1;
     
@@ -14,7 +15,7 @@ convertaritGeo: const aritGeo = function aritGeo(myarray)
   {
     if ((myarray[j] * myarray[i]) + myarray[j] === myarray[j+1])
     {
-      i++, j++
+      i++, j++;
       return 'Geometric';
     }
     else 
@@ -26,4 +27,7 @@ convertaritGeo: const aritGeo = function aritGeo(myarray)
   {
     return -1;
   }
-},
+
+};
+
+module.exports = aritGeo;

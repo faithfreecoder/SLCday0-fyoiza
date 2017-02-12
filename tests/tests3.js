@@ -1,12 +1,13 @@
-var jasmine = require('jasmine');
-//var assert = chai.assert;
-//var expect = chai.expect;
-var expect = jasmine.expect;
-
-var myApp = require('../app/library3.js');
 
   (function(){
   'use strict';
+
+var jasmine = require('jasmine');
+//var assert = chai.assert;
+//var expect = chai.expect;
+var jasmine = jasmine.expect;
+
+var aritGeo = require('../app/library3.js');
 
   describe("Determine the sequence of an array of numbers: ", function() {
 
